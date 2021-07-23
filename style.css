@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/*first page*/
+.image {
+    width: 50px;
+}
+
+.bg-container {
+    background-size: cover;
+
+    background: linear-gradient(0deg, rgba(50, 50, 50, 0.85), rgba(50, 50, 50, 0.85)), url("https://s3-alpha-sig.figma.com/img/289f/6ad2/555a3eed00261ea01098aea9161a886f?Expires=1627862400&Signature=GMhsMXH1zpTkVTbgUWyfd8Cff4PLGmjkIOqc-OkB07OHq27yeWwQChBVuRuYJIkkyB~kPJx0bjyJzgr7PIbSLqXz5gRfl5ee7vb34rLv31YQzGQw4uZdXzUNalEgH5qyqb0vZboZ2S3owxoYyVa3NwcjNdS~4Jq0ALOW7S2ouPZge4SKXq326sI-n291zsHnq03DQW9RJf5dJpuMTTGghs1JU51Nc5QnpwEutFHsmgBEfq0TMZdp4~qfTRHTFxuajUo5UUAqrurrr8xuD2FYSXAM7QAdu6atemdVRB3fCykt5RkPJu2fYgtOz2nN1mXNtct4gRMzDBRzZATWw6fYLA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+}
+
+.quote {
+    color: #FE8E22;
+}
+
+.content {
+    color: #ffffff;
+}
+
+.paragraph {
+    color: #ffffff;
+}
+
+.logo {
+    color: #ffffff;
+}
+
+.greater {
+    color: #ffffff;
+    text-align: right;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paragraph1 {
+    color: #8692A6;
+    text-align: right;
+    font-size: 10px;
+}
+
+.custom {
+    color: #FE8E22;
+}
+
+.title {
+    font-size: 30px;
+    color: #000000;
+}
+
+.description {
+    font-size: 10px;
+}
+
+.cards {
+    display: flex;
+    background: rgba(214, 112, 14, 0.08);
+    border: 1px solid #FE8E22;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 6px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.heading {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.description1 {
+    font-size: 12px;
+    color: #8692A6;
+}
+
+.arrow {
+    color: #FE8E22;
+}
+
+.client {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+
+
+
+
+/*second page*/
+.bg-color {
+    background: #F0F0F0;
+}
+
+.paragraph {
+    font-family: "Roboto";
+    font-size: 12px;
+
+}
+
+.form-heading {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Roboto";
+
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.bgcolor {
+    text-align: center;
+    color: white;
+    background-color: orange;
+    width: 500px;
+}
+
+.card {
+    width: 500px;
+    height: 50px;
+    border-width: 1px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.image {
+
+    width: 20px;
+    height: 20px;
+}
+
+.paragraphgoogle {
+    color: black;
+    font-style: bold;
+}
+
+.paragraphfb {
+    color: white;
+}
+
+/*third page*/
+
+* {
+    box-sizing: border-box;
+}
+
+.p1 {
+    font-weight: bold;
+
+}
+
+body {
+    margin: 0px;
+}
+
+.page-body {
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+
+    font-family: "Roboto";
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.color {
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.p2 {
+    font-size: 15px;
+}
+
+.image3 {
+    width: 150px;
+    height: 150px;
+}
+
+.back-img {
+    width: 100vh;
+    height: 300px;
+    background-image: url("https://res.cloudinary.com/des7uyibo/image/upload/v1626935841/middle_background_image_v6erpp.jpg");
+
+
+}
+
+.content {
+    padding: 20px;
+    font-family: "Roboto";
+    font-size: 18px;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+}
+
+.line {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    border-top: 3px solid black;
+}
+
+.color2 {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+}
+
+.line-ver {
+    color: black;
+    font-weight: bold;
+    border-left: 3px solid black;
+
+}
+
+.align-li-para {
+    padding-top: 40px;
+}
+
+.link {
+    background-color: blue;
+    width: 30px;
+    height: 35px;
+    margin: 20px;
+}
+
+.profile-view {
+    width: 50px;
+    height: 50px;
+}
+
+.profile-view1 {
+    width: 40px;
+    height: 40px;
+}
+
+.a-color {
+    color: red;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.bg {
+    border-radius: 10px;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.pen {
+    color: orange;
+    width: 30px;
+    height: 30px;
+}
+
+.spacing {
+    justify-content: space-between;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.camera {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.page-footer {
+    font-family: "Roboto";
+}
+
+.navbar-image {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    background-color: white;
+
+}
+
+.search-box {
+    color: black;
+}
+
+.image2 {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.text-color {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+.p2 {
+    color: black;
+}
+
+.p1 {
+    color: black;
+    font-weight: bold;
+}
+
+h5 {
+    color: black;
+}
+
+.co {
+    color: orange;
+}
+
+p {
+    color: #3A3A3A;
+}
